@@ -122,7 +122,7 @@ params:
     url: /#section1
   - title: Contact
     url: /#section5
-  - title: Documentation
+  - title: Tutorial
     url: /doc_part1
     sublinks:
     - title: Part 1
@@ -133,6 +133,8 @@ params:
       url: /doc_part3
   - title: FAQ
     url: /faq
+  - title: Documentation
+    url: /docs.html
     
   
   
