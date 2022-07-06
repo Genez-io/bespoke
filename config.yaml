@@ -1,0 +1,177 @@
+baseURL: https://razvanperial.github.io
+languageCode: en-us
+title: Nutri API
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/fresh.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Crave API
+    # Hero subtitle (optional)
+    subtitle: Enhance your lifestyle business by offering a tool for personalised meal plans, ingredient by ingredient. 
+    text: bsdksajbfkjasbf
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: /doc_part1
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+
+  section2:
+    title: Features
+    subtitle: Some text here
+    features:
+    - title: Simple, effective, precise 
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+      # TODO: add out icon and change text above
+      icon: laptop-globe
+    - title: Increase contact points with your users
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+      # TODO: add out icon and change text above
+      icon: doc-sync
+    - title: Minimally processed ingredients
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+      # TODO: add out icon and change text above
+      icon: mobile-feed
+    - title: Reduces food waste and cost (shopping list) 
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+      # TODO: add out icon and change text above
+      icon: mobile-feed
+    - title: Ingredient replacement calculator offers flexibility and adaptability
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+      # TODO: add out icon and change text above
+      icon: mobile-feed
+
+  section4:
+    title: Featured Apps that use the API
+    clients:
+    - name: Crave Nutrition
+      quote: Personalized diets and meal plans to cover all food preferences, gentle fitness programs and nutritionist support, all in one place.
+      img: 1
+    - name: Yummdiet
+      quote: With the help of the API we customize your nutritional plan according to your food preferences, your lifestyle and your individual data.
+      img: 2
+
+  section1:
+    title: Pricing
+    subtitle: "Rate Limit: 5 requests / second"
+    tiles:
+    - title: Basic
+      subtitle: $0 / month
+      icon: mouse-globe
+      feature1: 500 requests / month
+      feature2: Hard Limit
+      url: /
+      buttonText: Subscribe
+    - title: Pro
+      subtitle: $10.00 / month
+      icon: laptop-cloud
+      feature1: 10000 requests / month
+      feature2: + $0.002 each other
+      text: Short text about what this includes
+      url: /
+      buttonText: Subscribe
+    - title: Ultra
+      subtitle: $30.00 / month
+      icon: plug-cloud
+      feature1: 50000 requests / month
+      feature2: + $0.001 each other
+      text: Short text about what this includes
+      url: /
+      buttonText: Subscribe
+    - title: Mega
+      subtitle: $300.00 / month
+      icon: plug-cloud
+      feature1: Unlimited
+      text: Short text about what this includes
+      url: /
+      buttonText: Subscribe
+
+  section5: true
+      
+
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Overview
+    url: /#hero
+  - title: Features
+    url: /#section2
+  - title: Featured apps
+    url: /#section4
+  - title: Pricing
+    url: /#section1
+  - title: Contact
+    url: /#section5
+  - title: Documentation
+    url: /doc_part1
+    sublinks:
+    - title: Part 1
+      url: /doc_part1
+    - title: Part 2
+      url: /doc_part2
+    - title: Part 3
+      url: /doc_part3
+
+  - title: FAQ
+    url: /faq
+    
+  
+  
+  
+  
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /#section4
+        - text: Our roadmap
+          link: /
+        - text: FAQ
+          link: /en/faq
+      column2:
+        title: "Docs"
+        links:
+        - text: Github Repo
+          link: /
+        - text: Turorial Part 1
+          link: /doc_part1
+        - text: Turorial Part 2
+          link: /doc_part2
+        - text: Turorial Part 3
+          link: /doc_part3
