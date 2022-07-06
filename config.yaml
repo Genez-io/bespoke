@@ -131,9 +131,10 @@ params:
       url: /doc_part2
     - title: Part 3
       url: /doc_part3
-
   - title: FAQ
     url: /faq
+  - title: Documentation
+    url: /docs
     
   
   
@@ -160,18 +161,5 @@ params:
         links:
         - text: Discover features
           link: /#section4
-        - text: Our roadmap
-          link: /
         - text: FAQ
           link: /en/faq
-      column2:
-        title: "Docs"
-        links:
-        - text: Github Repo
-          link: /
-        - text: Turorial Part 1
-          link: /doc_part1
-        - text: Turorial Part 2
-          link: /doc_part2
-        - text: Turorial Part 3
-          link: /doc_part3
