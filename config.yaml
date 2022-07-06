@@ -112,16 +112,12 @@ params:
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Overview
+  - title: Home
     url: /#hero
   - title: Features
     url: /#section2
-  - title: Featured apps
-    url: /#section4
   - title: Pricing
     url: /#section1
-  - title: Contact
-    url: /#section5
   - title: Tutorial
     url: /doc_part1
     sublinks:
@@ -130,14 +126,13 @@ params:
     - title: Part 2
       url: /doc_part2
     - title: Part 3
-      url: /doc_part3
-  - title: FAQ
-    url: /faq
+      url: /doc_part3 
   - title: Documentation
     url: /docs.html
-    
-  
-  
+  - title: Contact
+    url: /#section5
+  - title: FAQ
+    url: /faq
   
   
   footer:
