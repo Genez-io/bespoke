@@ -1,6 +1,6 @@
 baseURL: https://razvanperial.github.io
 languageCode: en-us
-title: Nutri API
+title: Bespoke Diet Generator API
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
@@ -26,7 +26,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Crave API
+    title: Bespoke Diet Generator API
     # Hero subtitle (optional)
     subtitle: Enhance your lifestyle business by offering a tool for personalised meal plans, ingredient by ingredient. 
     text: bsdksajbfkjasbf
@@ -128,7 +128,7 @@ params:
     - title: Part 3
       url: /doc_part3 
   - title: Documentation
-    url: /docs.html
+    url: /documentation
   - title: Contact
     url: /#section5
   - title: FAQ
