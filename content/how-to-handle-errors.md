@@ -1,10 +1,8 @@
 ---
-title: Documentation
-subtitle: Tutorial
+title: "Tutorial - Part 3: How to handle errors"
 include_footer: true 
 ---
 
-## Part 3: How to handle errors
 
 ### Introduction
 
@@ -44,4 +42,4 @@ We log the error message and then we exit the process with a status value of 1. 
 
 Handling errors is always important. CraveAPI reports API errors in a consistent way and it is always easy to see what is the root cause. You can check the new version of the command line with the errors handled [here](https://github.com/SimpleCapitalTech/CraveAPI-CommandLine/blob/master/part3/index.js). This is the last part of this tutorial! You can check the [Github page](https://github.com/SimpleCapitalTech/CraveAPI-CommandLine) for more information.
 
-## [ &laquo; Part 2: How to configure the diet and replace ingredients](/doc_part2)
+## [ &laquo; Part 2: How to configure the diet and replace ingredients](/how-to-configure-the-diet-and-replace-ingredients)

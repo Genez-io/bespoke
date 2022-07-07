@@ -1,10 +1,7 @@
 ---
-title: Documentation
-subtitle: Tutorial
+title: "Tutorial - Part 2: How to configure the diet and replace ingredients"
 include_footer: true 
 ---
-
-## Part 2: How to configure the diet and replace ingredients
 
 ### Introduction
 
@@ -257,6 +254,6 @@ If the user wants organic turkey instead of salmon, he just needs to type “616
 
 It is important to eat what you like in order to mantain a healthy lifestyle. CraveAPI offers the support to customize diets. The code for this tutorial can be found [here](https://github.com/SimpleCapitalTech/CraveAPI-CommandLine/blob/master/part2/index.js).
 
-## [ &laquo; Part 1: How to generate your own diets using NodeJS](/doc_part1)
+## [ &laquo; Part 1: How to generate your own diets using NodeJS](/how-to-generate-your-own-diets-using-nodejs)
 
-## [ &raquo; Part 3: How to handle errors](/doc_part3)
+## [ &raquo; Part 3: How to handle errors](/how-to-handle-errors)

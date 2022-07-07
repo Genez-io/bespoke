@@ -1,11 +1,8 @@
 ---
-title: Documentation
-subtitle: Tutorial
+title: "Tutorial - Part 1: How to generate your own diets using NodeJS"
 include_footer: true 
 ---
 
-
-## Part 1: How to generate your own diets using NodeJS
 
 ### Introduction
 
@@ -231,4 +228,4 @@ That’s it! Congratulation! You have generated your first diet using CraveAPI!
 We have created a command line tool capable of generating customized diets using the CraveAPI. The code of the command line tool is available here. Have fun and stay healthy!
 
 
-## [ &raquo; Part 2: How to configure the diet and replace ingredients](/doc_part2)
+## [ &raquo; Part 2: How to configure the diet and replace ingredients](/how-to-configure-the-diet-and-replace-ingredients)
