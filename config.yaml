@@ -118,17 +118,12 @@ params:
     url: /#section2
   - title: Pricing
     url: /#section1
-  - title: Tutorial
-    url: /doc_part1
-    sublinks:
-    - title: Part 1
-      url: /doc_part1
-    - title: Part 2
-      url: /doc_part2
-    - title: Part 3
-      url: /doc_part3 
   - title: Documentation
-    url: /documentation
+    sublinks:
+    - title: Documentation
+      url: /documentation
+    - title: Tutorial
+      url: /tutorial
   - title: Contact
     url: /#section5
   - title: FAQ
