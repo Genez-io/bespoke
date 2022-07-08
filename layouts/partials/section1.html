@@ -10,7 +10,7 @@
       <div class="divider is-centered"></div>
     </div>
 
-    <div class="content-wrapper scroll">
+    <div class="content-wrapper">
       <div class="columns">
         {{- range $tiles }}
         <div class="column is-one-third">
@@ -21,14 +21,24 @@
             <div class="card-title">
               <h4>{{ .subtitle }}</h4>
             </div>
-            <div class="card-icon">
-                <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+            <div class="card-title">
+              <h2>{{ .type_of_limit }}</h2>
             </div>
-            <div class="card-text">
-              <p>{{ .feature1 }}</p>
-            </div>
-            <div class="card-text-bottom">
-              <p>{{ .feature2 }}</p>
+            <div class="price-row">
+              <div class="requests-column">
+                <h2>Requests</h2>
+                <p>&#8226; Generate new diet</p>
+                <p>&#8226; Create User</p>
+                <p>&#8226; Diet Costumization</p>
+                <p>&#8226; Other requests</p>
+              </div>
+              <div class="limit-column">
+                <h2>Limits</h2>
+                <p>{{ .limit1 }}</p>
+                <p>{{ .limit2 }}</p>
+                <p>{{ .limit3 }}</p>
+                <p>{{ .limit4 }}</p>
+              </div>
             </div>
             <div class="card-action">
               <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>

@@ -6364,11 +6364,6 @@ Section Styles
 .content-wrapper {
   padding: 60px 0; }
 
-@media (min-width: 800px) {
-  .scroll {
-    overflow-y: hidden;
-    overflow-x: scroll; } }
-
 img.pushed-image {
   margin-top: -5vh; }
 
@@ -6541,6 +6536,37 @@ Classes to change the feel of bulma buttons
 /* ==========================================================================
 Cards and Card content styles
 ========================================================================== */
+.requests-column {
+  float: left;
+  width: 55%; }
+  .requests-column h2 {
+    padding-bottom: 12px;
+    padding-left: 50px;
+    text-align: left;
+    font-weight: 500; }
+  .requests-column p {
+    font-size: 0.85em;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    float: left; }
+
+.limit-column {
+  float: left;
+  width: 45%; }
+  .limit-column h2 {
+    padding-bottom: 12px;
+    text-align: center;
+    font-weight: 500; }
+  .limit-column p {
+    font-size: 0.85em;
+    font-weight: 500;
+    padding-bottom: 8px; }
+
+.price-row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .feature-card {
   width: 300px;
   height: 320px;
@@ -6549,7 +6575,6 @@ Cards and Card content styles
   margin: 0 auto; }
   .feature-card .card-title h4 {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 10px;
     font-size: 1.2rem;
     font-weight: 600;
     color: #444F60; }
@@ -6559,21 +6584,28 @@ Cards and Card content styles
     font-size: 1.5rem;
     font-weight: 1000;
     color: #176108; }
+  .feature-card .card-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 1000;
+    color: #999;
+    padding-bottom: 10px; }
   .feature-card .card-icon img {
     height: 100px; }
   .feature-card .card-text {
     padding: 0 30px;
     padding-bottom: 3px; }
     .feature-card .card-text p {
-      font-weight: 500;
+      font-weight: 400;
       color: #444F60; }
   .feature-card .card-text-bottom {
-    padding-bottom: 8px; }
+    padding-bottom: 3px; }
     .feature-card .card-text-bottom p {
+      font-size: .1rem;
       color: #999; }
   .feature-card .card-action {
     position: absolute;
-    bottom: 27px;
+    bottom: 20px;
     left: 100px; }
   .feature-card.is-bordered {
     border: 1px solid #ededed; }

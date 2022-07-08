@@ -33,7 +33,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: /doc_part1
+    buttonlink: /tutorial
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
 
@@ -74,36 +74,34 @@ params:
 
   section1:
     title: Pricing
-    subtitle: "Rate Limit: 5 requests / second"
+    subtitle: "Rate Limit: 10 requests / minute"
     tiles:
     - title: Basic
-      subtitle: $0 / month
+      subtitle: $0.00 / mo
       icon: mouse-globe
-      feature1: 500 requests / month
-      feature2: Hard Limit
+      type_of_limit: Hard Limit
+      limit1: 100 / mo
+      limit2: 100 / mo
+      limit3: 10,000 / mo
+      limit4: 1,000 / mo
       url: /
       buttonText: Subscribe
     - title: Pro
-      subtitle: $10.00 / month
-      icon: laptop-cloud
-      feature1: 10000 requests / month
-      feature2: + $0.002 each other
-      text: Short text about what this includes
+      subtitle: $14.90 / mo
+      type_of_limit: + US$0.2 each other request
+      limit1: 100 / mo
+      limit2: 100 / mo
+      limit3: Unlimited
+      limit4: 10,000 / mo
       url: /
       buttonText: Subscribe
     - title: Ultra
-      subtitle: $30.00 / month
-      icon: plug-cloud
-      feature1: 50000 requests / month
-      feature2: + $0.001 each other
-      text: Short text about what this includes
-      url: /
-      buttonText: Subscribe
-    - title: Mega
-      subtitle: $300.00 / month
-      icon: plug-cloud
-      feature1: Unlimited
-      text: Short text about what this includes
+      subtitle: $49.90 / mo
+      type_of_limit: + US$0.2 each other request
+      limit1: 1000 / mo
+      limit2: 1000 / mo
+      limit3: Unlimited
+      limit4: 100,000 / mo
       url: /
       buttonText: Subscribe
 
