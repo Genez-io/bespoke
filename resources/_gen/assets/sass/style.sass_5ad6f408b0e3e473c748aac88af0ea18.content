@@ -6181,8 +6181,8 @@ Navbar
   .navbar.is-fresh .navbar-brand {
     min-height: 4rem; }
     .navbar.is-fresh .navbar-brand img {
-      max-height: 36px !important;
-      height: 36px; }
+      max-height: 100px !important;
+      height: 60px; }
     .navbar.is-fresh .navbar-brand:hover .navbar-item {
       background: transparent !important; }
   .navbar.is-fresh .navbar-end {
@@ -6190,7 +6190,7 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #999; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
-      color: #08d345 !important; }
+      color: #05a89b !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
       padding: 10px 0; }
       .navbar.is-fresh .navbar-item.has-dropdown .navbar-link {
@@ -6205,13 +6205,13 @@ Navbar
         top: 3.4rem;
         min-width: 220px;
         margin-top: 4px;
-        border-top-color: #08d345; }
+        border-top-color: #05a89b; }
         .navbar.is-fresh .navbar-item.has-dropdown .navbar-dropdown .navbar-item {
           padding: 10px 20px; }
       .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link {
-        color: #08d345; }
+        color: #05a89b; }
         .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link:after {
-          border-color: #08d345; }
+          border-color: #05a89b; }
     .navbar.is-fresh .navbar-item .signup {
       display: block;
       line-height: 0;
@@ -6227,7 +6227,7 @@ Navbar
     .navbar.is-fresh.is-fixed a {
       color: #444F60; }
       .navbar.is-fresh.is-fixed a:hover {
-        color: #176108; }
+        color: #05a89b; }
 
 #navbar-clone {
   position: fixed;
@@ -6252,7 +6252,7 @@ div.nav-item.is-drop:hover .dropContain .dropOut {
 
 div.nav-item.is-drop:hover, div.nav-item.is-drop:hover a {
   border-bottom: 1px solid transparent !important;
-  color: #08d345; }
+  color: #ffffff; }
 
 div.nav-item.is-drop:hover .dropContain {
   top: 65px;
@@ -6332,7 +6332,7 @@ Section Styles
   background-color: #fbfbfb; }
 
 .section.section-secondary {
-  background-color: #176108; }
+  background-color: #05a89b; }
 
 .section.section-half {
   height: 75vh !important; }
@@ -6356,7 +6356,7 @@ Section Styles
 .divider {
   height: 3px;
   border-radius: 50px;
-  background: #08d345;
+  background: #ffffff;
   width: 60px; }
   .divider.is-centered {
     margin: 0 auto; }
@@ -6426,7 +6426,7 @@ footer.footer-dark {
   footer.footer-dark .columns {
     margin-top: 35px; }
   footer.footer-dark .footer-logo img {
-    height: 40px; }
+    height: 70px; }
   footer.footer-dark .footer-column .footer-header h3 {
     font-weight: 500;
     font-size: 1.2rem;
@@ -6443,7 +6443,7 @@ footer.footer-dark {
     footer.footer-dark .footer-column ul.link-list :hover {
       color: #fcfcfc; }
   footer.footer-dark .footer-column .level-item .icon {
-    color: #08d345;
+    color: #ffffff;
     transition: all 0.5s; }
     footer.footer-dark .footer-column .level-item .icon :hover {
       color: #fcfcfc; }
@@ -6477,8 +6477,8 @@ Classes to change the feel of bulma buttons
 
 .button.primary-btn {
   outline: none;
-  border-color: #176108;
-  background-color: #176108;
+  border-color: #05a89b;
+  background-color: #05a89b;
   color: #fff;
   transition: all 0.5s; }
   .button.primary-btn:hover {
@@ -6487,17 +6487,17 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(79, 193, 234, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(79, 193, 234, 0.2) !important;
     opacity: 0.8; }
   .button.primary-btn.btn-outlined {
-    border-color: #176108;
-    color: #176108;
+    border-color: #05a89b;
+    color: #05a89b;
     background-color: transparent; }
     .button.primary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #176108; }
+      background-color: #05a89b; }
 
 .button.secondary-btn {
   outline: none;
-  border-color: #08d345;
-  background-color: #08d345;
+  border-color: #ffffff;
+  background-color: #ffffff;
   color: #fff;
   transition: all 0.5s; }
   .button.secondary-btn:hover {
@@ -6506,17 +6506,17 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(243, 146, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(243, 146, 0, 0.2) !important;
     opacity: 0.8; }
   .button.secondary-btn.btn-outlined {
-    border-color: #08d345;
-    color: #08d345;
+    border-color: #ffffff;
+    color: #ffffff;
     background-color: transparent; }
     .button.secondary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #08d345; }
+      background-color: #ffffff; }
 
 .button.button.accent-btn {
   outline: none;
-  border-color: #176108;
-  background-color: #176108;
+  border-color: #05a89b;
+  background-color: #05a89b;
   color: #fff;
   transition: all 0.5s; }
   .button.button.accent-btn:hover {
@@ -6525,12 +6525,12 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(104, 187, 136, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(104, 187, 136, 0.2) !important;
     opacity: 0.8; }
   .button.button.accent-btn.btn-outlined {
-    border-color: #176108;
-    color: #176108;
+    border-color: #05a89b;
+    color: #05a89b;
     background-color: transparent; }
     .button.button.accent-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #176108; }
+      background-color: #05a89b; }
 
 /*! _cards.scss v1.0.0 | Commercial License | built on top of bulma.io/Bulmax */
 /* ==========================================================================
@@ -6583,7 +6583,7 @@ Cards and Card content styles
     padding-top: 10px;
     font-size: 1.5rem;
     font-weight: 1000;
-    color: #176108; }
+    color: #05a89b; }
   .feature-card .card-title h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
@@ -6629,11 +6629,11 @@ Cards and Card content styles
     .flex-card .navtab-content p {
       padding: 0 0.8rem 20px; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.primary {
-    background-color: #176108; }
+    background-color: #05a89b; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.secondary {
-    background-color: #08d345; }
+    background-color: #ffffff; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.accent {
-    background-color: #176108; }
+    background-color: #05a89b; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li a {
     color: #f2f2f2; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li.is-active a {
@@ -6661,17 +6661,17 @@ input.input {
   input.input.rounded {
     border-radius: 100px; }
   input.input.is-primary-focus:focus {
-    border-color: #176108; }
+    border-color: #05a89b; }
     input.input.is-primary-focus:focus ~ span.icon i {
-      color: #176108; }
+      color: #05a89b; }
   input.input.is-secondary-focus:focus {
-    border-color: #08d345; }
+    border-color: #ffffff; }
     input.input.is-secondary-focus:focus ~ span.icon i {
-      color: #08d345; }
+      color: #ffffff; }
   input.input.is-accent-focus:focus {
-    border-color: #176108; }
+    border-color: #05a89b; }
     input.input.is-accent-focus:focus ~ span.icon i {
-      color: #176108; }
+      color: #05a89b; }
   input.input.is-bloody-focus:focus {
     border-color: #FC354C; }
     input.input.is-bloody-focus:focus ~ span.icon i {
@@ -6790,7 +6790,7 @@ Sidebar Styles
     transform: scale(0.07);
     transform-origin: 0 0; }
     .menu-icon-wrapper svg path {
-      stroke: #08d345;
+      stroke: #ffffff;
       stroke-width: 40px;
       stroke-linecap: round;
       stroke-linejoin: round;
@@ -6853,7 +6853,7 @@ Sidebar Styles
       transition: all .3s;
       cursor: pointer; }
       .sidebar .sidebar-header svg:hover {
-        stroke: #08d345;
+        stroke: #ffffff;
         transform: rotate(180deg); }
   .sidebar .inner {
     position: relative; }
@@ -6885,7 +6885,7 @@ Sidebar Styles
         border-bottom: 1px solid #303d52;
         font-size: .8rem; }
         .sidebar .inner .sidebar-menu li.have-children li a:hover {
-          color: #176108;
+          color: #05a89b;
           padding-left: 62px; }
       .sidebar .inner .sidebar-menu li.have-children span::after {
         position: absolute;
@@ -6899,7 +6899,7 @@ Sidebar Styles
     .sidebar .inner li.have-children, .sidebar .inner li {
       position: relative; }
     .sidebar .inner li.have-children.active > a, .sidebar .inner li.have-children.active > a span, .sidebar .inner li.have-children.active > a span:after {
-      color: #08d345; }
+      color: #ffffff; }
     .sidebar .inner li.active.have-children span::after {
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
@@ -7085,7 +7085,7 @@ button:focus, button:active {
 #backtotop.visible a:hover {
   outline: none;
   opacity: 0.9;
-  background: #08d345; }
+  background: #ffffff; }
 
 #backtotop a {
   outline: none;

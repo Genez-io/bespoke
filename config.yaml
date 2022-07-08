@@ -19,7 +19,7 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/Color-logo-no-background.svg
     link: /
   font:
     name: "Open Sans"
@@ -130,7 +130,7 @@ params:
   
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: White-logo-no-background.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
