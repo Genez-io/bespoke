@@ -6190,7 +6190,7 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #999; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
-      color: #05a89b !important; }
+      color: #009DC4 !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
       padding: 10px 0; }
       .navbar.is-fresh .navbar-item.has-dropdown .navbar-link {
@@ -6205,13 +6205,13 @@ Navbar
         top: 3.4rem;
         min-width: 220px;
         margin-top: 4px;
-        border-top-color: #05a89b; }
+        border-top-color: #009DC4; }
         .navbar.is-fresh .navbar-item.has-dropdown .navbar-dropdown .navbar-item {
           padding: 10px 20px; }
       .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link {
-        color: #05a89b; }
+        color: #009DC4; }
         .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link:after {
-          border-color: #05a89b; }
+          border-color: #009DC4; }
     .navbar.is-fresh .navbar-item .signup {
       display: block;
       line-height: 0;
@@ -6227,7 +6227,7 @@ Navbar
     .navbar.is-fresh.is-fixed a {
       color: #444F60; }
       .navbar.is-fresh.is-fixed a:hover {
-        color: #05a89b; }
+        color: #009DC4; }
 
 #navbar-clone {
   position: fixed;
@@ -6332,7 +6332,7 @@ Section Styles
   background-color: #fbfbfb; }
 
 .section.section-secondary {
-  background-color: #05a89b; }
+  background-color: #009DC4; }
 
 .section.section-half {
   height: 75vh !important; }
@@ -6477,8 +6477,8 @@ Classes to change the feel of bulma buttons
 
 .button.primary-btn {
   outline: none;
-  border-color: #05a89b;
-  background-color: #05a89b;
+  border-color: #009DC4;
+  background-color: #009DC4;
   color: #fff;
   transition: all 0.5s; }
   .button.primary-btn:hover {
@@ -6487,12 +6487,12 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(79, 193, 234, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(79, 193, 234, 0.2) !important;
     opacity: 0.8; }
   .button.primary-btn.btn-outlined {
-    border-color: #05a89b;
-    color: #05a89b;
+    border-color: #009DC4;
+    color: #009DC4;
     background-color: transparent; }
     .button.primary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #05a89b; }
+      background-color: #009DC4; }
 
 .button.secondary-btn {
   outline: none;
@@ -6515,8 +6515,8 @@ Classes to change the feel of bulma buttons
 
 .button.button.accent-btn {
   outline: none;
-  border-color: #05a89b;
-  background-color: #05a89b;
+  border-color: #009DC4;
+  background-color: #009DC4;
   color: #fff;
   transition: all 0.5s; }
   .button.button.accent-btn:hover {
@@ -6525,12 +6525,12 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(104, 187, 136, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(104, 187, 136, 0.2) !important;
     opacity: 0.8; }
   .button.button.accent-btn.btn-outlined {
-    border-color: #05a89b;
-    color: #05a89b;
+    border-color: #009DC4;
+    color: #009DC4;
     background-color: transparent; }
     .button.button.accent-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #05a89b; }
+      background-color: #009DC4; }
 
 /*! _cards.scss v1.0.0 | Commercial License | built on top of bulma.io/Bulmax */
 /* ==========================================================================
@@ -6583,7 +6583,7 @@ Cards and Card content styles
     padding-top: 10px;
     font-size: 1.5rem;
     font-weight: 1000;
-    color: #05a89b; }
+    color: #009DC4; }
   .feature-card .card-title h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
@@ -6629,11 +6629,11 @@ Cards and Card content styles
     .flex-card .navtab-content p {
       padding: 0 0.8rem 20px; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.primary {
-    background-color: #05a89b; }
+    background-color: #009DC4; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.secondary {
     background-color: #ffffff; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.accent {
-    background-color: #05a89b; }
+    background-color: #009DC4; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li a {
     color: #f2f2f2; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li.is-active a {
@@ -6661,17 +6661,17 @@ input.input {
   input.input.rounded {
     border-radius: 100px; }
   input.input.is-primary-focus:focus {
-    border-color: #05a89b; }
+    border-color: #009DC4; }
     input.input.is-primary-focus:focus ~ span.icon i {
-      color: #05a89b; }
+      color: #009DC4; }
   input.input.is-secondary-focus:focus {
     border-color: #ffffff; }
     input.input.is-secondary-focus:focus ~ span.icon i {
       color: #ffffff; }
   input.input.is-accent-focus:focus {
-    border-color: #05a89b; }
+    border-color: #009DC4; }
     input.input.is-accent-focus:focus ~ span.icon i {
-      color: #05a89b; }
+      color: #009DC4; }
   input.input.is-bloody-focus:focus {
     border-color: #FC354C; }
     input.input.is-bloody-focus:focus ~ span.icon i {
@@ -6885,7 +6885,7 @@ Sidebar Styles
         border-bottom: 1px solid #303d52;
         font-size: .8rem; }
         .sidebar .inner .sidebar-menu li.have-children li a:hover {
-          color: #05a89b;
+          color: #009DC4;
           padding-left: 62px; }
       .sidebar .inner .sidebar-menu li.have-children span::after {
         position: absolute;
