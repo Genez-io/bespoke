@@ -29,7 +29,7 @@ params:
     title: Bespoke Diet Generator API
     # Hero subtitle (optional)
     subtitle: Enhance your lifestyle business by offering a tool for personalised meal plans, ingredient by ingredient. 
-    text: bsdksajbfkjasbf
+    text:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -113,9 +113,9 @@ params:
   - title: Home
     url: /#hero
   - title: Features
-    url: /#section2
+    url: /#features
   - title: Pricing
-    url: /#section1
+    url: /#pricing
   - title: Documentation
     sublinks:
     - title: Documentation
@@ -123,7 +123,7 @@ params:
     - title: Tutorial
       url: /tutorial
   - title: Contact
-    url: /#section5
+    url: /#contact
   - title: FAQ
     url: /faq
   
