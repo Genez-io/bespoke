@@ -125,7 +125,7 @@ params:
   - title: Contact
     url: /#contact
   - title: FAQ
-    url: /thank_you
+    url: /faq
   
   
   footer:
