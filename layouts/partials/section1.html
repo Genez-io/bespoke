@@ -21,9 +21,6 @@
             <div class="card-title">
               <h4>{{ .subtitle }}</h4>
             </div>
-            <div class="card-title">
-              <h2>{{ .type_of_limit }}</h2>
-            </div>
             <div class="price-row">
               <div class="requests-column">
                 <h2>Requests</h2>
@@ -33,11 +30,25 @@
                 <p>&#8226; Other requests</p>
               </div>
               <div class="limit-column">
-                <h2>Limits</h2>
-                <p>{{ .limit1 }}</p>
-                <p>{{ .limit2 }}</p>
-                <p>{{ .limit3 }}</p>
-                <p>{{ .limit4 }}</p>
+                <h2>Limit per month</h2>
+                <div class="limit-row">
+                  <div class="limit-number">{{ .limit1 }}</div>
+                  <div class = "limit-type">{{ .limit_type1 }}</div>
+                </div>
+                <div class="limit-row">
+                  <div class="limit-number">{{ .limit2 }}</div>
+                  <div class = "limit-type">{{ .limit_type2 }}</div>
+                </div>
+                <div class="limit-row">
+                  <div class="limit-number">{{ .limit3 }}</div>
+                  <div class = "limit-type">{{ .limit_type3 }}</div>
+                </div>
+                <div class="limit-row">
+                  <div class="limit-number">{{ .limit4 }}</div>
+                  <div class = "limit-type">{{ .limit_type4 }}</div>
+                  <div class = "unlimited">{{ .unlimited }}</div>
+                </div>
+                
               </div>
             </div>
             <div class="card-action">

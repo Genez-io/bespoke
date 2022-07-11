@@ -10,7 +10,7 @@ Cards and Card content styles
     float: left;
     width: 55%;
     h2{
-        padding-bottom: 12px;
+        padding-bottom: 8px;
         padding-left: 50px;
         text-align: left;
         font-weight: 500;
@@ -18,16 +18,52 @@ Cards and Card content styles
     p{
         font-size:0.85em;
         padding-left: 20px;
-        padding-bottom: 8px;
+        padding-bottom: 13.5px;
         float:left;
     }
 
   }
+.limit-number{
+    font-size: 0.85em;
+    align-self: center;
+    font-weight: 500;
+    padding-right: 2px;
+    padding-left: 5px;
+    text-align: center;
+    float: left;
+    width:44%;
+}
+.limit-type{
+    text-align: center;
+    padding-top: 4px;
+    color: $muted-grey;
+    font-size: 0.5em;
+    font-weight: 400;
+    float:left;
+    width:56%;
+}
+.unlimited{
+    position: absolute;
+    font-size: 0.85em;
+    font-weight: 600;
+    right: 30px;
+}
+.limit-row:after{
+    margin: 0px;
+    padding-bottom: 13.5px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .limit-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     float: left;
     width: 45%;
     h2{
-        padding-bottom: 12px;
+        padding-bottom: 9px;
         text-align: center;
         font-weight: 500;
     }
@@ -36,13 +72,16 @@ Cards and Card content styles
         font-weight: 500;
         padding-bottom: 8px;
     }
+    .columns{
+        text-align: center;
+    }
   }
   
-  .price-row:after {
+.price-row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 .feature-card {
     width: 300px;
@@ -54,7 +93,8 @@ Cards and Card content styles
         font-family: 'Open Sans', sans-serif;
         font-size: 1.2rem;
         font-weight: 600;
-        color: $blue-grey
+        color: $blue-grey;
+        padding-bottom: 15px;
     }
     .card-title h3 {
         font-family: 'Open Sans', sans-serif;

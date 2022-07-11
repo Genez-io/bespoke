@@ -83,33 +83,40 @@ params:
     subtitle: "Rate Limit: 10 requests / minute"
     tiles:
     - title: Basic
-      subtitle: $0.00 / mo
+      subtitle: $0.00
       icon: mouse-globe
-      type_of_limit: Hard Limit
-      limit1: 100 / mo
-      limit2: 100 / mo
-      limit3: 10,000 / mo
-      limit4: 1,000 / mo
-      url: /
+      limit1: 100
+      limit_type1: (Hard Limit)
+      limit2: 100
+      limit_type2: (Hard Limit)
+      limit3: 10,000
+      limit_type3: (Hard Limit)
+      limit4: 1,000
+      limit_type4: (Hard Limit)
+      url: https://rapidapi.com/genez-io-genez-io-default/api/bespoke-diet-generator
       buttonText: Subscribe
     - title: Pro
-      subtitle: $14.90 / mo
-      type_of_limit: + US$0.2 each other request
-      limit1: 100 / mo
-      limit2: 100 / mo
-      limit3: Unlimited
-      limit4: 10,000 / mo
-      url: /
+      subtitle: $14.90
+      limit1: 100
+      limit_type1: (+$0.2 each other)
+      limit2: 100
+      limit_type2: (+$0.2 each other)
+      limit3: 10,000
+      limit_type3: (+$0.002 each other)
+      unlimited: Unlimited
+      url: https://rapidapi.com/genez-io-genez-io-default/api/bespoke-diet-generator
       buttonText: Subscribe
     - title: Ultra
-      subtitle: $49.90 / mo
-      type_of_limit: + US$0.2 each other request
-      limit1: 1000 / mo
-      limit2: 1000 / mo
-      limit3: Unlimited
-      limit4: 100,000 / mo
+      subtitle: $49.90
+      limit1: 1,000
+      limit_type1: (+$0.2 each other)
+      limit2: 1,000
+      limit_type2: (+$0.2 each other)
+      limit3: 100,000
+      limit_type3: (+$0.002 each other)
+      unlimited: Unlimited
       recommended: Recommended
-      url: /
+      url: https://rapidapi.com/genez-io-genez-io-default/api/bespoke-diet-generator
       buttonText: Subscribe
 
   section5: true
