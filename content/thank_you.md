@@ -8,4 +8,4 @@ include_footer: true
 <br>
 <br>
 
-##### [ Back to the main page](/)
+##### [&laquo; Back to the main page](/)
