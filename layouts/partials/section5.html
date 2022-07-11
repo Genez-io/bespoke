@@ -9,22 +9,32 @@
       <div class="content-wrapper">
         <div class="columns">
           <div class="column is-6 is-offset-3">
-            <form>
+            <form action="https://formsubmit.co/razvan@genez.io" method="POST">
               <div class="columns is-multiline">
+                <input type="hidden" name="_subject" value="New submission!">
+                <!-- MIGHT HAVE TO DELETE THIS LINE -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://razvanperial.github.io">
+
                 <div class="column is-6">
-                  <input class="input is-medium" type="text" placeholder="Enter your name">
+                  <input class="input is-medium" type="text" name="name" placeholder="Enter your name" required>
                 </div>
+
                 <div class="column is-6">
-                  <input class="input is-medium" type="email" placeholder="Enter your email address">
+                  <input class="input is-medium" type="email" name="email" placeholder="Enter your email address" required>
                 </div>
+
                 <div class="column is-12">
-                  <textarea class="textarea" rows="10" placeholder="Write someting..."></textarea>
+                  <textarea class="textarea" type="text" name="message" rows="10" placeholder="Write someting..."></textarea>
                 </div>
+
                 <div class="form-footer has-text-centered mt-10">
-                  <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
+                  <button type="submit" class="button cta is-large primary-btn raised is-clear">Send Message</button>
                 </div>
               </div>
+            
             </form>
+            <form>
           </div>
         </div>
       </div>
