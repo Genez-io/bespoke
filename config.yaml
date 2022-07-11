@@ -52,15 +52,19 @@ params:
     - title: Minimally processed ingredients
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
       # TODO: add out icon and change text above
-      icon: mobile-feed
+      icon: plug-cloud
     - title: Reduces food waste and cost (shopping list) 
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
       # TODO: add out icon and change text above
-      icon: mobile-feed
+      icon: mouse-globe
     - title: Ingredient replacement calculator offers flexibility and adaptability
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
       # TODO: add out icon and change text above
       icon: mobile-feed
+    - title: Another feature here
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+      # TODO: add out icon and change text above
+      icon: laptop-cloud
 
   section4:
     title: Featured Apps that use the API
