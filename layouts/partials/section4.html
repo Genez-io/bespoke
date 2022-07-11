@@ -21,7 +21,9 @@
               {{ .quote }}
             </blockquote>
             <div class="author">
-              <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
+              <a href="{{ .url }}">
+                <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
+              </a>
               <h5>{{ .name }}</h5>
               <span>{{ .job }}</span>
             </div>

@@ -67,10 +67,12 @@ params:
     clients:
     - name: Crave Nutrition
       quote: Personalized diets and meal plans to cover all food preferences, gentle fitness programs and nutritionist support, all in one place.
-      img: 1
+      img: crave_logo
+      url: https://apps.apple.com/us/app/crave-bespoke-nutrition/id1581722434
     - name: Yummdiet
       quote: With the help of the API we customize your nutritional plan according to your food preferences, your lifestyle and your individual data.
-      img: 2
+      img: yumm_logo
+      url: https://yummdiet.com/
 
   section1:
     title: Pricing
