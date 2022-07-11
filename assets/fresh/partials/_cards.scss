@@ -88,6 +88,17 @@ Cards and Card content styles
             color: $muted-grey;
         }
     }
+    .recommended{
+        font-size: 0.8em;
+        font-weight: 500;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: white;
+        position: absolute;
+        top:0em;
+        right: 0em;
+        background-color: #009DC4;
+    }
     .card-action {
         position: absolute;
         bottom:20px;

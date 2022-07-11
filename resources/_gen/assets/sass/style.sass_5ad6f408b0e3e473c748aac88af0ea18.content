@@ -6603,6 +6603,16 @@ Cards and Card content styles
     .feature-card .card-text-bottom p {
       font-size: .1rem;
       color: #999; }
+  .feature-card .recommended {
+    font-size: 0.8em;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    background-color: #009DC4; }
   .feature-card .card-action {
     position: absolute;
     bottom: 20px;

@@ -102,6 +102,7 @@ params:
       limit2: 1000 / mo
       limit3: Unlimited
       limit4: 100,000 / mo
+      recommended: Recommended
       url: /
       buttonText: Subscribe
 
