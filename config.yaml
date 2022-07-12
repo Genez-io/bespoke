@@ -80,7 +80,6 @@ params:
 
   section1:
     title: Pricing
-    subtitle: "Rate Limit: 10 requests / minute"
     tiles:
     - title: Basic
       subtitle: $0.00

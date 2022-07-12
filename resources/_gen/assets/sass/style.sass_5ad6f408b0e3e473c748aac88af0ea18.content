@@ -6356,7 +6356,7 @@ Section Styles
 .divider {
   height: 3px;
   border-radius: 50px;
-  background: #ffffff;
+  background: #009DC4;
   width: 60px; }
   .divider.is-centered {
     margin: 0 auto; }
@@ -6647,7 +6647,7 @@ Cards and Card content styles
     background-color: #009DC4; }
   .feature-card .card-action {
     position: absolute;
-    bottom: 20px;
+    bottom: 12px;
     left: 100px; }
   .feature-card.is-bordered {
     border: 1px solid #ededed; }
