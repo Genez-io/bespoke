@@ -2,7 +2,6 @@ baseURL: https://razvanperial.github.io
 languageCode: en-us
 title: Bespoke Diet Generator API
 theme: hugo-fresh
-publishDir: public/bespoke
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
 disableKinds:
