@@ -2,7 +2,7 @@
 {{- $title    := index $section4 "title" }}
 {{- $subtitle := index $section4 "subtitle" }}
 {{- $clients  := index $section4 "clients" }}
-<section class="section is-medium section-secondary" id="section4">
+<section class="section is-medium section-secondary">
   <div class="container">
 
     <div class="title-wrapper has-text-centered">
@@ -17,16 +17,16 @@
         {{- range $clients }}
         <div class="column is-6">
           <figure class="testimonial">
+            <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
             <blockquote>
-              {{ .quote }}
+              {{ .name }}
             </blockquote>
-            <div class="author">
-              <a href="{{ .url }}" target=”_blank”>
-                <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
-              </a>
-              <h5>{{ .name }}</h5>
-              <span>{{ .job }}</span>
-            </div>
+            <p class="description">
+              {{ .description }}
+            </p>
+            <a class="learn-more" href="{{ .url }}">
+              Learn More
+            </a>
           </figure>
         </div>
         {{- end }}
