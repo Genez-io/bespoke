@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+
+<meta property="og:title" content="Documentation" />
+<meta property="og:description" content="Part 3: How to handle errors Introduction Sometimes APIs can fail because of multiple reasons. One of them is that the input that we pass to the API is invalid. With CraveAPI we return errors in a standardize way such that it is easy to see what the reason of the failure. Let’s see how errors can be handled with grace. We will show how to handle the errors on our command line utility that we have built in the previous tutorials." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://razvanperial.github.io/doc_part3/" /><meta property="article:section" content="" />
+
+
+
+
+
+<meta name="description" content="Hardcoded description; the author should update :)" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Nutri API</title>
+    
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/style.min.4f5ec18d1881ca5b98073dbde8dc31d673e85f413157f67b883e067dd488b7e5.css" integrity="sha256-T17BjRiByluYBz296Nwx1nPoX0ExV/Z7iD4GfdSIt&#43;U=">
+<link rel="stylesheet" type="text/css" href="/css/icons.css">
+
+  </head>
+  <body>
+    
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    
+
+    
+
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/fresh.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-end">
+          <a href="/#hero" class="navbar-item is-secondary">
+            Overview
+          </a>
+          <a href="/#section2" class="navbar-item is-secondary">
+            Features
+          </a>
+          <a href="/#section4" class="navbar-item is-secondary">
+            Featured apps
+          </a>
+          <a href="/#section1" class="navbar-item is-secondary">
+            Pricing
+          </a>
+          <a href="/#section5" class="navbar-item is-secondary">
+            Contact
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Documentation
+            </a>
+
+            <div class="navbar-dropdown">
+              <a href="/doc_part1" class="navbar-item">
+                Part 1
+              </a>
+              <a href="/doc_part2" class="navbar-item">
+                Part 2
+              </a>
+              <a href="/doc_part3" class="navbar-item">
+                Part 3
+              </a>
+            </div>
+          </div>
+          <a href="/faq" class="navbar-item is-secondary">
+            FAQ
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+
+
+
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/logos/fresh.svg" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="cloned-navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
+
+      <div class="navbar-end">
+        <a href="/#hero" class="navbar-item is-secondary">
+          Overview
+        </a>
+        <a href="/#section2" class="navbar-item is-secondary">
+          Features
+        </a>
+        <a href="/#section4" class="navbar-item is-secondary">
+          Featured apps
+        </a>
+        <a href="/#section1" class="navbar-item is-secondary">
+          Pricing
+        </a>
+        <a href="/#section5" class="navbar-item is-secondary">
+          Contact
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Documentation
+          </a>
+
+          <div class="navbar-dropdown">
+            <a href="/doc_part1" class="navbar-item">
+              Part 1
+            </a>
+            <a href="/doc_part2" class="navbar-item">
+              Part 2
+            </a>
+            <a href="/doc_part3" class="navbar-item">
+              Part 3
+            </a>
+          </div>
+        </div>
+        <a href="/faq" class="navbar-item is-secondary">
+          FAQ
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">Documentation</h1>
+        <h5 class="subtitle is-5 is-muted">Tutorial</h5>
+        <div class="divider"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 id="part-3-how-to-handle-errors">Part 3: How to handle errors</h2>
+<h3 id="introduction">Introduction</h3>
+<p>Sometimes APIs can fail because of multiple reasons. One of them is that the input that we pass to the API is invalid. With CraveAPI we return errors in a standardize way such that it is easy to see what the reason of the failure. Let’s see how errors can be handled with grace. We will show how to handle the errors on our command line utility that we have built in the previous tutorials.</p>
+<h3 id="handling-errors">Handling errors</h3>
+<p>Let’s say we want to create a user but we don’t pass anything to the body. Try to run this command:</p>
+<blockquote>
+<p>node index.js createUser</p>
+</blockquote>
+<pre><code>    {
+        error: { status: 'BAD_REQUEST', message: 'dateOfBirth field is required.' }
+    }
+</code></pre>
+<p>The output contains an <strong>error</strong> object that has two properties: <strong>status</strong> and <strong>message</strong>. The status code of the HTTP response is 400. There are two indicators that something wrong happened with your request: if the error object exists in the response’s body or if the HTTP response status code is 3XX or 4XX or 5XX. The message field describes what is wrong with your request. In this example, the problem is that the <strong>dateOfBirth</strong> field is missing.</p>
+<p>So, let’s handle the errors in our command line utility. We are using axios and whenever the HTTP response’s status code is different than 2XX, an exception will be thrown and it will be handled by the catch block. What we can do in this <strong>catch</strong> block is to prind the error’s message and then exit the program.</p>
+<details>
+<summary style="font-weight: bold; cursor: pointer;">Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Javascript" data-lang="Javascript"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">response</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> <span style="color:#a6e22e">axios</span>.<span style="color:#a6e22e">request</span>(<span style="color:#a6e22e">options</span>).<span style="color:#66d9ef">catch</span>(<span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>		 <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">error</span>.<span style="color:#a6e22e">response</span>.<span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">error</span>.<span style="color:#a6e22e">message</span>);
+</span></span><span style="display:flex;"><span>		 <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">exit</span>(<span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>	});
+</span></span></code></pre></div></details>
+<br>
+<p>We log the error message and then we exit the process with a status value of 1. You can do this for all requests.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Handling errors is always important. CraveAPI reports API errors in a consistent way and it is always easy to see what is the root cause. You can check the new version of the command line with the errors handled <a href="https://github.com/SimpleCapitalTech/CraveAPI-CommandLine/blob/master/part3/index.js">here</a>. This is the last part of this tutorial! You can check the <a href="https://github.com/SimpleCapitalTech/CraveAPI-CommandLine">Github page</a> for more information.</p>
+<h2 id="-laquo-part-2-how-to-configure-the-diet-and-replace-ingredientsdoc_part2"><a href="/doc_part2"> « Part 2: How to configure the diet and replace ingredients</a></h2>
+
+    </div>
+  </div>
+</section>
+
+
+
+    
+    
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="footer-logo">
+          <img src="/images/logos/fresh-white-alt.svg">
+        </div>
+      </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Product</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/#section4">
+                  Discover features
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  Our roadmap
+                </a>
+              </li>
+              <li>
+                <a href="/en/faq">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="column">
+          <div class="footer-column">
+            <div class="footer-header">
+                <h3>Docs</h3>
+            </div>
+            <ul class="link-list">
+              <li>
+                <a href="/">
+                  Github Repo
+                </a>
+              </li>
+              <li>
+                <a href="/doc_part1">
+                  Turorial Part 1
+                </a>
+              </li>
+              <li>
+                <a href="/doc_part2">
+                  Turorial Part 2
+                </a>
+              </li>
+              <li>
+                <a href="/doc_part3">
+                  Turorial Part 3
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3>Follow Us</h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                <a class="level-item" href="https://github.com/lucperkins/github-fresh">
+                  <span class="icon"><i class="fa fa-github"></i></span>
+                </a>
+                <a class="level-item" href="https://dribbble.com/#">
+                  <span class="icon"><i class="fa fa-dribbble"></i></span>
+                </a>
+                <a class="level-item" href="https://facebook.com/#">
+                  <span class="icon"><i class="fa fa-facebook"></i></span>
+                </a>
+                <a class="level-item" href="https://twitter.com/lucperkins">
+                  <span class="icon"><i class="fa fa-twitter"></i></span>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+    
+    <div id="backtotop"><a href="#"></a></div>
+
+    
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="/js/fresh.js"></script>
+<script src="/js/jquery.panelslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </body>
+</html>
