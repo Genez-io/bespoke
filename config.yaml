@@ -37,6 +37,25 @@ params:
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
 
+  getstarted:
+    title: Get started with our diet generator API
+
+    features:
+      - number: 1
+        step: Obtain an App Key from RapidAPI.
+      - number: 2
+        step: Create a user and set its biometrics data using POST.
+      - number: 3
+        step: Set the ingredients that the user does not like.
+      - number: 4
+        step: Generate the diet!
+      - number: 5
+        step: Change ingredients from the newly generated diet to match better user’s preferences.
+
+    buttontext: Try it now
+    buttonlink: /tutorial
+    image: illustrations/mockups/app-mockup.png
+
   section2:
     title: Features
     subtitle: Some text here

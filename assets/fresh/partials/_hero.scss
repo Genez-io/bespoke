@@ -5,6 +5,7 @@ Hero styles
 .hero-body {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    padding-left: 4rem;
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
     }
@@ -25,3 +26,47 @@ Hero styles
         height: 70px;
     }
 }
+
+
+/* ==========================================================================
+Getstarted styles
+========================================================================== */
+
+.getstarted-body {
+    padding-top: 6rem;
+    padding-bottom: 9rem;
+    @media (min-width: 767px) {
+        padding-left: 4rem;
+    }
+    @media (max-width: 766px) {
+        padding-left: 1rem;
+    }
+    .title {
+        &.is-bold {
+            font-weight: 700;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    .step-row:after{
+        content: "";
+        display: table;
+        clear: both;
+        padding-bottom: 5px;
+    }
+
+    .gs-number{
+        float: left;
+        width: 5%;
+        font-weight: 500;
+        font-size: 1.8em;
+        max-width: 20px;
+        color: $primary;
+    }
+    .step{
+        font-size: 0.9em;
+        font-weight: 500;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+}
+

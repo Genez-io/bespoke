@@ -6407,7 +6407,8 @@ Hero styles
 ========================================================================== */
 .hero-body {
   padding-top: 6rem;
-  padding-bottom: 6rem; }
+  padding-bottom: 6rem;
+  padding-left: 4rem; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
   .hero-body .title.is-bold {
@@ -6417,6 +6418,39 @@ Hero styles
 
 .hero-foot img.partner-logo {
   height: 70px; }
+
+/* ==========================================================================
+Getstarted styles
+========================================================================== */
+.getstarted-body {
+  padding-top: 6rem;
+  padding-bottom: 9rem; }
+  @media (min-width: 767px) {
+    .getstarted-body {
+      padding-left: 4rem; } }
+  @media (max-width: 766px) {
+    .getstarted-body {
+      padding-left: 1rem; } }
+  .getstarted-body .title.is-bold {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif; }
+  .getstarted-body .step-row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 5px; }
+  .getstarted-body .gs-number {
+    float: left;
+    width: 5%;
+    font-weight: 500;
+    font-size: 1.8em;
+    max-width: 20px;
+    color: #009DC4; }
+  .getstarted-body .step {
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 40px; }
 
 /* ==========================================================================
 Fresh Footer
