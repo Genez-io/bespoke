@@ -6179,7 +6179,8 @@ Navbar
     width: 4rem;
     height: 4rem; }
   .navbar.is-fresh .navbar-brand {
-    min-height: 4rem; }
+    min-height: 4rem;
+    padding-left: 1em; }
     .navbar.is-fresh .navbar-brand img {
       max-height: 100px !important;
       height: 60px; }

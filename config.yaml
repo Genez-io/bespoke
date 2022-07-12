@@ -67,7 +67,7 @@ params:
       icon: laptop-cloud
 
   section4:
-    title: Featured Apps that use the API
+    title: API Users
     clients:
     - name: Crave Nutrition
       description: Personalized diets and meal plans to cover all food preferences, gentle fitness programs and nutritionist support, all in one place.
@@ -137,8 +137,6 @@ params:
       url: /tutorial
   - title: Contact
     url: /#contact
-  - title: FAQ
-    url: /faq
   
   
   footer:
@@ -161,6 +159,4 @@ params:
         title: "Product"
         links:
         - text: Discover features
-          link: /#section4
-        - text: FAQ
-          link: /en/faq
+          link: /#features
