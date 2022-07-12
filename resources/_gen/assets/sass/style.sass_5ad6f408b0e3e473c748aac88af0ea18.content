@@ -6547,27 +6547,21 @@ Cards and Card content styles
   .requests-column p {
     font-size: 0.85em;
     padding-left: 20px;
-    padding-bottom: 13.5px;
+    padding-bottom: 18px;
     float: left; }
 
 .limit-number {
   font-size: 0.85em;
   align-self: center;
   font-weight: 500;
-  padding-right: 2px;
-  padding-left: 5px;
-  text-align: center;
-  float: left;
-  width: 44%; }
+  text-align: center; }
 
 .limit-type {
   text-align: center;
-  padding-top: 4px;
+  padding-bottom: 6px;
   color: #999;
   font-size: 0.5em;
-  font-weight: 400;
-  float: left;
-  width: 56%; }
+  font-weight: 400; }
 
 .unlimited {
   position: absolute;
@@ -6589,7 +6583,7 @@ Cards and Card content styles
   float: left;
   width: 45%; }
   .limit-column h2 {
-    padding-bottom: 9px;
+    padding-bottom: 8px;
     text-align: center;
     font-weight: 500; }
   .limit-column p {
@@ -6615,7 +6609,7 @@ Cards and Card content styles
     font-size: 1.2rem;
     font-weight: 600;
     color: #444F60;
-    padding-bottom: 15px; }
+    padding-bottom: 10px; }
   .feature-card .card-title h3 {
     font-family: 'Open Sans', sans-serif;
     padding-top: 10px;
