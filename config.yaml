@@ -1,4 +1,4 @@
-baseURL: https://genez-io.github.io/bespoke/
+baseURL: https://bespokediets.com
 languageCode: en-us
 title: Bespoke Diet Generator API
 theme: hugo-fresh
@@ -52,8 +52,7 @@ params:
       - number: 5
         step: Change ingredients from the newly generated diet to match better user’s preferences.
 
-    buttontext: Try it now
-    buttonlink: /tutorial
+
     image: illustrations/mockups/app-mockup.png
 
   section2:
