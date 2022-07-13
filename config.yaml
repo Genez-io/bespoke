@@ -35,25 +35,7 @@ params:
     # Where the main hero button links to
     buttonlink: /tutorial
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
-
-  getstarted:
-    title: Get started with our diet generator API
-
-    features:
-      - number: 1
-        step: Obtain an App Key from RapidAPI.
-      - number: 2
-        step: Create a user and set its biometrics data using POST.
-      - number: 3
-        step: Set the ingredients that the user does not like.
-      - number: 4
-        step: Generate the diet!
-      - number: 5
-        step: Change ingredients from the newly generated diet to match better user’s preferences.
-
-
-    image: illustrations/mockups/app-mockup.png
+    image: illustrations/main.jpg
 
   section2:
     title: Features
@@ -62,7 +44,7 @@ params:
     - title: Simple, effective, precise 
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
       # TODO: add out icon and change text above
-      icon: laptop-globe
+      icon: simple
     - title: Increase contact points with your users
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
       # TODO: add out icon and change text above
@@ -83,6 +65,22 @@ params:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
       # TODO: add out icon and change text above
       icon: laptop-cloud
+
+  getstarted:
+    title: Get started with our diet generator API
+
+    features:
+      - number: 1
+        step: Obtain an App Key from RapidAPI.
+      - number: 2
+        step: Create a user and set its biometrics data using POST.
+      - number: 3
+        step: Set the ingredients that the user does not like.
+      - number: 4
+        step: Generate the diet!
+      - number: 5
+        step: Change ingredients from the newly generated diet to match better user’s preferences.
+    image: illustrations/second.jpg
 
   section4:
     title: API Users

@@ -6389,6 +6389,10 @@ img.pushed-image {
     margin-right: auto;
     width: 40%; } }
 
+.logo-img {
+  max-width: 6em;
+  padding-bottom: 15px; }
+
 .icon-box-title {
   color: #444F60;
   font-size: 1.2rem;
