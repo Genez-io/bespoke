@@ -6410,8 +6410,8 @@ img.pushed-image {
 Hero styles
 ========================================================================== */
 .hero-body {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 20px;
+  padding-bottom: 0;
   padding-left: 4rem; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
@@ -6427,7 +6427,7 @@ Hero styles
 Getstarted styles
 ========================================================================== */
 .getstarted-body {
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 9rem; }
   @media (min-width: 767px) {
     .getstarted-body {

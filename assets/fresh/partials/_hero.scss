@@ -3,8 +3,8 @@ Hero styles
 ========================================================================== */
 
 .hero-body {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 20px;
+    padding-bottom: 0;
     padding-left: 4rem;
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
@@ -33,7 +33,7 @@ Getstarted styles
 ========================================================================== */
 
 .getstarted-body {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 9rem;
     @media (min-width: 767px) {
         padding-left: 4rem;
