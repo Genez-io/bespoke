@@ -1,4 +1,4 @@
-baseURL: https://genez-io.github.io/bespoke
+baseURL: https://genez-io.github.io/bespoke/
 languageCode: en-us
 title: Bespoke Diet Generator API
 theme: hugo-fresh
