@@ -22,10 +22,11 @@ Navbar
     //Brand
     .navbar-brand {
         min-height: 4rem;
-        padding-left: 1em;
+        padding-left: 2em;
         img {
             max-height: 100px !important;
             height: 60px;
+            max-width: 60px;
         }
         //Removing navbar item default hover behaviour
         &:hover {

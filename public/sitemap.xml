@@ -2,20 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bespokediets.com/documentation/</loc>
+    <loc>/documentation/</loc>
   </url><url>
-    <loc>https://bespokediets.com/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>https://bespokediets.com/faq/</loc>
+    <loc>/faq/</loc>
   </url><url>
-    <loc>https://bespokediets.com/thank_you/</loc>
+    <loc>/thank_you/</loc>
   </url><url>
-    <loc>https://bespokediets.com/tutorial/</loc>
+    <loc>/how-to-generate-your-own-diets-using-nodejs/</loc>
   </url><url>
-    <loc>https://bespokediets.com/how-to-generate-your-own-diets-using-nodejs/</loc>
+    <loc>/how-to-configure-the-diet-and-replace-ingredients/</loc>
   </url><url>
-    <loc>https://bespokediets.com/how-to-configure-the-diet-and-replace-ingredients/</loc>
-  </url><url>
-    <loc>https://bespokediets.com/how-to-handle-errors/</loc>
+    <loc>/how-to-handle-errors/</loc>
   </url>
 </urlset>

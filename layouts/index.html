@@ -11,6 +11,10 @@
     {{ partial "get-started.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.tutorials }}
+    {{ partial "tutorials.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.section3 }}
     {{ partial "section3.html" . }}
     {{ end }}

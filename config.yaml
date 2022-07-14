@@ -1,4 +1,9 @@
-baseURL: https://bespokediets.com
+#TODO
+#ADD ARROW 
+#SHOW USER HOW OT GET RAPID API KEY
+
+
+aseURL: https://bespokediets.com
 languageCode: en-us
 title: Bespoke Diet Generator API
 theme: hugo-fresh
@@ -19,52 +24,41 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/Color-logo-no-background.svg
+    image: logos/navbar-logo.png
     link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Bespoke Diet Generator API
+    title: Bespoke Diet Generator 
     # Hero subtitle (optional)
-    subtitle: Enhance your lifestyle business by offering a tool for personalised meal plans, ingredient by ingredient. 
+    subtitle: We are solving the complexity of generating personalized diets so you can add them to any web or mobile applications. Give it a try by generating a diet now for free!   
     text:
     # Button text
-    buttontext: Get started
+    buttontext: Go to RapidAPI
     # Where the main hero button links to
-    buttonlink: /tutorial
+    buttonlink: https://rapidapi.com/genez-io-genez-io-default/api/bespoke-diet-generator/
+    tutbuttontext: Tutorials
+    # Where the main hero button links to
+    tutbuttonlink: /#tutorials
     # Hero image (from static/images/___)
     image: illustrations/main.jpg
 
-  section2:
+  section2: 
     title: Features
-    subtitle: Some text here
     features:
     - title: Simple, effective, precise 
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
-      # TODO: add out icon and change text above
+      text: Use a simple API to generate an effective diet using precise quantities from selected ingredients.
       icon: simple
-    - title: Increase contact points with your users
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+    - title: Ingredient replacement calculator 
+      text: Offer flexibility and adaptibility to your users by allowing them to change ingredients in an already generated diet.
       # TODO: add out icon and change text above
-      icon: doc-sync
-    - title: Minimally processed ingredients
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
+      icon: switch
+    - title: Generate diets that work
+      text: The generated diets are easy to follow, because we offer the choice of eliminating undesired food items.
       # TODO: add out icon and change text above
-      icon: plug-cloud
-    - title: Reduces food waste and cost (shopping list) 
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
-      # TODO: add out icon and change text above
-      icon: mouse-globe
-    - title: Ingredient replacement calculator offers flexibility and adaptability
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
-      # TODO: add out icon and change text above
-      icon: mobile-feed
-    - title: Another feature here
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.
-      # TODO: add out icon and change text above
-      icon: laptop-cloud
+      icon: diet
 
   getstarted:
     title: Get started with our diet generator API
@@ -81,6 +75,20 @@ params:
       - number: 5
         step: Change ingredients from the newly generated diet to match better user’s preferences.
     image: illustrations/second.jpg
+
+  tutorials:
+    title: Tutorials
+    clients:
+    - name: Part 1
+      description: How to generate your own diets using NodeJS
+      url: /how-to-generate-your-own-diets-using-nodejs
+    - name: Part 2
+      description: How to configure the diet and replace ingredients
+      url: /how-to-configure-the-diet-and-replace-ingredients
+    - name: Part 3
+      description: How to handle errors
+      url: /how-to-handle-errors
+
 
   section4:
     title: API Users
@@ -146,11 +154,9 @@ params:
   - title: Pricing
     url: /#pricing
   - title: Documentation
-    sublinks:
-    - title: Documentation
-      url: /documentation
-    - title: Tutorial
-      url: /tutorial
+    url: /documentation
+  - title: Tutorials
+    url: /#tutorials
   - title: Contact
     url: /#contact
   

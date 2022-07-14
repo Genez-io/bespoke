@@ -63,6 +63,7 @@ Section Styles
     }
 }
 
+
 //Wrapper
 .content-wrapper {
     padding: 60px 0;
@@ -77,6 +78,7 @@ img.pushed-image {
 
 @media (min-width: 800px) {
     .wrap {
+        padding-left: 27px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -107,6 +109,7 @@ img.pushed-image {
 }
 
 .logo-img{
+    min-height: 7em;
     max-width: 6em;
     padding-bottom: 15px;
 }

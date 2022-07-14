@@ -2,7 +2,9 @@
 {{- $title      := index $hero "title" }}
 {{- $subtitle   := index $hero "subtitle" }}
 {{- $buttonText := index $hero "buttontext" }}
+{{- $tutbuttonText := index $hero "tutbuttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
+{{- $tutbuttonLink := index $hero "tutbuttonlink" }}
 {{- $image      := index $hero "image" }}
 <div class="hero-body">
   <div class="container">
@@ -19,6 +21,12 @@
         <p>
           <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
             {{ $buttonText }}
+          </a>
+        </p>
+        <p style="color:white; width: 10px;float: left;">agdgsg</p>
+        <p>
+          <a class="button cta rounded primary-btn raised" href="{{ $tutbuttonLink }}">
+            {{ $tutbuttonText }}
           </a>
         </p>
       </div>

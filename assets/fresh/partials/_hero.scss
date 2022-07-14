@@ -8,6 +8,7 @@ Hero styles
     padding-left: 4rem;
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
+
     }
     .title {
         &.is-bold {
@@ -15,11 +16,13 @@ Hero styles
         }
     }
     .subtitle {
+        padding-bottom: 10px;
         &.is-muted {
             color: $muted-grey;
         }
     }
 }
+
 
 .hero-foot {
     img.partner-logo {

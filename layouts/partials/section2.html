@@ -6,11 +6,10 @@
     <div class="container">
         <div class="column">
             <div class="column is-centered-tablet-portrait">
-                <h1 class="title section-title">{{ $title }}</h1>
-                <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
-                <div class="divider"></div>
+                <h1 class="title section-title has-text-centered">{{ $title }}</h1>
+                <div class="divider is-centered"></div>
             </div>
-            <div class="is-7 mt-60 wrap">
+            <div class="is-3 mt-60 wrap">
                 {{- range $features }}
                 <article class="row mb-60">
                     <img class="logo-img" src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
