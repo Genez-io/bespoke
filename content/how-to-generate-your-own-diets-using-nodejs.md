@@ -11,6 +11,16 @@ In this part, we will cover how to create a simple command line utility that gen
 ### Prerequisites
 For this tutorial, we are going to use NodeJS and npm. [Here](https://nodejs.dev/learn/how-to-install-nodejs) you can find a tutorial on how to install them.
 
+### Get API key
+
+Before we start, you will need to obtain an ***apiKey*** in order to be able to use our product. To do this, first you need to enter [this link](https://rapidapi.com/genez-io-genez-io-default/api/bespoke-diet-generator/). Once you have done this, you will see the main page and documentation of our API. Click on the **Pricing** section of the page. For this tutorial, you can select the **Basic** version of Subscription. Once you have succesfully subscribed, click on the **API Documentation** button, which will redirect you to the main page, on the *Endpoints* section.
+<br><br>
+
+
+![alt omage](/images/tutorial_pic.jpeg)
+
+Here, in the **red rectangles**, you will find your **apiKey**.
+
 ### Setup
 * Initialize a new project using ***npm init***. Set the name of the project “DietGenerator” and all the other fields are optional and can be skipped by pressing Enter (however, for a production application, it is advisable to set all the fields accordingly).
 * Install axios library for network requests using ***npm install axios***.

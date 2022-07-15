@@ -33,6 +33,12 @@ Classes to change the feel of bulma buttons
         padding: 24px 26px;
         width: 130px;
     }
+    @media(max-width:767px){
+        &.btn-center{
+            margin-left:8%;
+        }
+        
+    }
 }
 
 .button {
