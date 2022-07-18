@@ -7,7 +7,7 @@ aseURL: https://bespokediets.com
 languageCode: en-us
 title: Bespoke Diet Generator API
 theme: hugo-fresh
-googleAnalytics: G-41PPZT898K
+googleAnalytics: "G-41PPZT898K"
 # Disables warnings
 disableKinds:
 - taxonomy
