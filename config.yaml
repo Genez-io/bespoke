@@ -7,7 +7,7 @@ aseURL: https://bespokediets.com
 languageCode: en-us
 title: Bespoke Diet Generator API
 theme: hugo-fresh
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+googleAnalytics: G-41PPZT898K
 # Disables warnings
 disableKinds:
 - taxonomy

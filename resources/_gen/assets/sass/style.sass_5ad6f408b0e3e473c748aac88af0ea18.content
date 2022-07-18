@@ -6531,7 +6531,7 @@ Classes to change the feel of bulma buttons
     width: 130px; }
   @media (max-width: 767px) {
     .button.btn-center {
-      margin-left: 8%; } }
+      margin-left: 4%; } }
 .button.primary-btn {
   max-width: 150px;
   float: left;
