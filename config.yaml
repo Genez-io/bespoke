@@ -108,9 +108,9 @@ params:
     - title: Basic
       subtitle: $0.00
       icon: mouse-globe
-      limit1: 100
+      limit1: 10
       limit_type1: Hard Limit
-      limit2: 100
+      limit2: 10
       limit_type2: Hard Limit
       limit3: 10,000
       limit_type3: Hard Limit
