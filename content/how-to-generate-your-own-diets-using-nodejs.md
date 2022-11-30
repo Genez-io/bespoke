@@ -141,7 +141,7 @@ else if (command === "generateDiet") {
 			});
 
 		// Step 3
-		dailyPlan.forEach((plan, index) => {
+		response.data.dailyPlan.forEach((plan, index) => {
 			console.log(`Day ${index + 1}:`)
 			for (const meal of plan.meals) {
 				console.log(`   For meal ${meal.type} you should eat:`);
@@ -165,7 +165,7 @@ Now let’s run the code!
 ### How to test it
 Let’s test the whole flow. First we have to create the user. The user will be a woman born in 1991 that has 170 cm height, 80 kg and is very active:
 
-> node index.js createUser 170 80 1991-03-03 WOMAN VERY_ACTIVE
+> node index.js createUser 170 80 1991-03-03 FEMALE VERY_ACTIVE
 
     User created Successfully! User ID is: 62af3a0fc1767a00de5b03cf
 
